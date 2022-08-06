@@ -1,0 +1,51 @@
+.references {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 276px;
+    overflow: hidden;
+}
+
+.references::before {
+    transform: rotate(5.92deg);
+    bottom: 93px;
+    left: -114px;
+}
+
+.references::after {
+    transform: rotate(5.92deg);
+    bottom: 80px;
+    left: -182px;
+}
+
+.references-title {
+    margin-top: 143px;
+    margin-bottom: 147px;
+}
+
+.references-boxes {
+    gap: 0 60px;
+    margin: 0 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.references-status {
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.06), -4px -4px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.refe-img {
+    margin: 100px 0 28px 60px;
+}
+
+.refe-content {
+    margin: 0 38px 10px 60px;
+}
+
+.refe-desc {
+    margin: 0 0 77px 60px;
+}

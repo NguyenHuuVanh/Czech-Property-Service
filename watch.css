@@ -1,0 +1,75 @@
+.watch {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 72px;
+    padding-top: 190px;
+    margin: 0 47px 0 88px;
+    padding-bottom: 381px;
+}
+
+.watch::before {
+    transform: rotate(5.92deg);
+    top: 188px;
+    right: -300px;
+}
+
+.watch::after {
+    transform: rotate(5.92deg);
+    top: 200px;
+    right: -232px;
+}
+
+.watch-video {
+    position: relative;
+}
+
+.watch-buy {
+    transform: translateY(40%);
+}
+
+.watch-buy-btn {
+    margin-top: 82px;
+}
+
+.watch-modal {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 272px;
+    height: 289px;
+    border-radius: 10px;
+    transform: translate(40px, 50%);
+    background-color: rgba(0, 0, 0, 0.33);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse {
+    border-radius: 50%;
+    width: 123px;
+    height: 123px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+.play {
+    position: absolute;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.watch-video-icon {
+    position: absolute;
+    transform: translate(40px, -50%);
+    background: rgb(0, 0, 0, 0.33);
+    border-radius: 10px;
+    height: 289px;
+}
+
+.icon-box {
+    z-index: 0;
+}

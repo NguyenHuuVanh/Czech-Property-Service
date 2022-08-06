@@ -1,0 +1,46 @@
+.infomation {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 268px;
+    overflow: hidden;
+}
+
+.infomation::before {
+    transform: rotate(6.25deg);
+    right: -190px;
+    bottom: 43px;
+}
+
+.infomation::after {
+    transform: rotate(6.25deg);
+    right: -232px;
+    bottom: 32px;
+}
+
+.info-heading {
+    text-align-last: center;
+    margin-top: 175px;
+    margin-bottom: 64px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 126px;
+}
+
+.info-orgnization,
+.info-technology,
+.info-rank {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content-desc {
+    margin: 26px 0 23px 0;
+}

@@ -1,0 +1,55 @@
+@import url(./global.css);
+@import url(./variables.css);
+@import url(./header-heading.css);
+@import url(./main.css);
+@import url(./infomation.css);
+@import url(./category.css);
+@import url(./references.css);
+@import url(./watch.css);
+@import url(./footer.css);
+@import url(./mobile-tablet.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.auth-title {
+    padding: 39px 74px 30px 64px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.15em;
+    color: var(--gray-color);
+}
+
+.form-group {
+    margin-left: 49px;
+    margin-bottom: 15px;
+    color: #c4c4c4;
+}
+
+.form-input {
+    margin-left: 48px;
+    margin-bottom: 26px;
+    border: 1px solid #c4c4c4;
+    width: 342px;
+    height: 54px;
+    font-size: 28px;
+    outline: none;
+}
+
+.auth-btn.primary-btn {
+    margin: 0 auto;
+    margin-bottom: 33px;
+}

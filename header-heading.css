@@ -1,0 +1,121 @@
+.header {
+    background-image: url(./images/building.png);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+}
+
+.logo {
+    margin-left: 32px;
+    height: 111px;
+}
+
+.more-btn {
+    display: none;
+}
+
+.header-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+}
+
+span {
+    width: 192px;
+}
+
+.phone {
+    margin-right: 15px;
+}
+
+.email {
+    margin-right: 12px;
+    margin-left: 29px;
+}
+
+.menu {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 0 46px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+
+.intro {
+    padding-left: 72px;
+    margin-top: 256px;
+}
+
+.intro-heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.15em;
+    color: var(--gray-color);
+    width: 310px;
+    height: 45px;
+}
+
+.intro-content {
+    position: relative;
+    width: 599px;
+    height: 195px;
+    margin: 28px 0 43px 0;
+}
+
+.intro-content::before {
+    content: "";
+    position: absolute;
+    background-color: #4bb165;
+    bottom: -15px;
+    left: -20px;
+}
+
+.intro-content::after {
+    content: "";
+    position: absolute;
+    background-color: #4bb165;
+    left: 0;
+    bottom: -24px;
+}
+
+.intro-desc {
+    position: relative;
+    margin-bottom: 271px;
+}
+
+.intro-btn-sm {
+    display: none;
+}
+
+.auth {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 50px;
+    margin-top: 175px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
